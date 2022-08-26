@@ -1,0 +1,29 @@
+body{
+    padding: 3% 7%;
+    
+}
+.senderAddress{
+    text-align: right;
+}
+.backgroundImg{
+    background-image: url("/blockchain/images/running.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: relative; 
+}
+.transperantImg{
+    background-color: #ffff;
+    opacity: 0.8;
+    z-index: 3;
+}
+.letterBody{
+    text-align: justify;
+    font-weight: bold;
+    color: #000000;
+    z-index: 7;
+    
+}
+.endSalutations{
+    text-align: right;
+}

@@ -1,0 +1,8 @@
+body{
+    padding: 3% 7%;
+    
+}
+#btn-one{
+    background: linear-gradient(to right bottom, #0500ff, #00ffdd);
+    border-style: none;
+}

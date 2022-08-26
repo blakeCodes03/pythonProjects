@@ -17,8 +17,10 @@ class Teacher(Student):
         super().__init__(Firstname, Level, age)
         self.retirementYear = year
     def welcome(self):
-        print(self.name, "nice having you with us but you retire in", self.retirementYear)
+        print(self.name, "nice having you with us but you retire in", self.retirementYear) 
 t1 = Teacher("Issac Nephtha", 14, 54, 2045).welcome()
 t2 = Teacher("Jordan Whithers", 7, 32, 2073).welcome()
+t3 = Teacher("Francis Rivers", 14, 54, 2045).welcome()
+t4 = Teacher("Jason Bourne", 14, 54, 2045).welcome()
 t1.printDetails()
 
